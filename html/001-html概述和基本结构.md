@@ -83,6 +83,33 @@ xhtml制定了文档的编写规范，html5可部分遵守，也可全部遵守�
 
 4、img必须要加alt属性\(对图片的描述\)
 
+```html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>xhtml 1.0 文档类型</title>
+</head>
+
+<!--  1、标签建议全部小写  --> 
+<BODY>
+
+	<!--  2、属性用引号引起来  --> 
+	<div class="aa" id="div1"></div>
+	
+	<!--  3、标签应该闭合 成对标签应该成对出现，单个标签在结尾加 “ /”  --> 
+	<br>
+	<br />
+	<!-- 4、img标签加上alt属性   alt属性意思:当图片丢失，默认显示些提示信息-->
+	<img src="images/00111.jpg" alt="风景图">
+
+
+</body>
+</HTML>
+```
+
+#### ![](/assets/S6U~BX%Z@Z`~7HOE%29YU~%XK.png) {#html注释：}
+
 #### html注释： {#html注释：}
 
 html文档代码中可以插入注释，注释是对代码的说明和解释，注释的内容不会显示在页面上，html代码中插入注释的方法是：

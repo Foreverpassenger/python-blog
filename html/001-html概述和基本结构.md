@@ -108,7 +108,7 @@ xhtml制定了文档的编写规范，html5可部分遵守，也可全部遵守�
 </HTML>
 ```
 
-#### ![](/assets/S6U~BX%Z@Z`~7HOE%29YU~%XK.png) {#html注释：}
+#### ![](/html/S6U~BX%Z@Z`~7HOE%29YU~%XK.png) {#html注释：}
 
 #### html注释： {#html注释：}
 

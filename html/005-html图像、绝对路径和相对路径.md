@@ -43,7 +43,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>相对路径</title>
 </head>
 <body>
     <!-- “./pic.jpg” 表示当前目录下的apple01.png的图片-->

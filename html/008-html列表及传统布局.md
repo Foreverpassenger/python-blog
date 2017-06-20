@@ -60,6 +60,42 @@
 
 7、height 设置表格高度
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>table常用属性</title>
+</head>
+<body>
+	<table border="1" width="500" height="300" cellpadding="5px" cellspacing="10px">
+		<tr>
+			<!--th的文字默认居中了-->
+			<th valign="top">序号</th>
+			<th align="left">产品名称</th>
+			<th>产品价格</th>
+			<th>产品数量</th>
+		</tr>
+		<tr>
+			<!--td的文字默认align=left,valign设置middle无效-->
+			<td align="center">1</td>
+			<td align="center">苹果</td>
+			<td>¥5.00</td>
+			<td>1000</td>
+		</tr>
+		<tr>
+			<td align="center">2</td>
+			<td valign="middle">橘子</td>
+			<td valign="top">¥4.00</td>
+			<td>2000</td>
+		</tr>
+	</table>
+</body>
+</html>
+```
+
+![](/html/代码/19.jpg)
+
 8、colspan 设置单元格水平合并
 
 9、rowspan 设置单元格垂直合并

@@ -56,13 +56,15 @@
 
 5、valign 设置单元格中内容的垂直对齐方式 top \| middle \| bottom
 
-6、colspan 设置单元格水平合并
+6、width  设置表格宽度
 
-7、rowspan 设置单元格垂直合并
+7、height 设置表格高度
 
-8、width  设置表格宽度
 
-9、height 设置表格高度
+
+8、colspan 设置单元格水平合并
+
+9、rowspan 设置单元格垂直合并
 
 
 

@@ -82,14 +82,28 @@
 在sublime创建列表快捷键：
 
 ```html
-	<!-- ul>(li>a)*5   -->
-	<ul>
-		<li><a href="">新闻标题</a></li>
-		<li><a href="">新闻标题</a></li>
-		<li><a href="">新闻标题</a></li>
-		<li><a href="">新闻标题</a></li>
-		<li><a href="">新闻标题</a></li>
-	</ul>
+    <!-- ul>(li>a)*5   -->
+    <ul>
+        <li><a href="">新闻标题</a></li>
+        <li><a href="">新闻标题</a></li>
+        <li><a href="">新闻标题</a></li>
+        <li><a href="">新闻标题</a></li>
+        <li><a href="">新闻标题</a></li>
+    </ul>
+```
+
+```html
+	<!-- dl>(dt+dd)*3   -->
+	<dl>
+		<dt></dt>
+		<dd></dd>
+
+		<dt></dt>
+		<dd></dd>
+
+		<dt></dt>
+		<dd></dd>
+	</dl>
 ```
 
 

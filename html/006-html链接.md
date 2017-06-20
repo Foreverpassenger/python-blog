@@ -263,3 +263,24 @@
 
 ![](/assets/13-3.gif)
 
+#### 打开新窗口跳转
+
+&lt;a&gt; 标签的 target 属性规定在何处打开链接文档。
+
+如果在一个 &lt;a&gt; 标签内包含一个 target 属性，浏览器将会载入和显示用这个标签的 href 属性命名的、名称与这个目标吻合的框架或者窗口中的文档。如果这个指定名称或 id 的框架或者窗口不存在，浏览器将打开一个新的窗口，给这个窗口一个指定的标记，然后将新的文档载入那个窗口。从此以后，超链接文档就可以指向这个新的窗口。
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>定义链接跳转目标窗口</title>
+</head>
+<body>
+	<a href="http://www.baidu.com" title="链接到百度" target="_blank">百度网</a>
+</body>
+</html>
+```
+
+![](/assets/14-1.gif)
+

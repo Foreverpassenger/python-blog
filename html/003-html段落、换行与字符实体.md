@@ -44,7 +44,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>html换行</title>
 </head>
 <body>
     <p>
@@ -67,7 +67,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>html字符实体</title>
 </head>
 <body>
     <!--  在段落前想缩进两个文字的空格，使用空格的字符实体：&nbsp;   -->
@@ -88,11 +88,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <title>html字符实体02</title>
 </head>
 <body>
-	<!-- “<” 和 “>” 的字符实体为 &lt; 和 &gt; -->
+    <!-- “<” 和 “>” 的字符实体为 &lt; 和 &gt; -->
 <p>
     3 &lt; 5 <br>
     10 &gt; 5

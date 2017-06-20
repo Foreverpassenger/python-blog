@@ -47,7 +47,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>含样式和语义的标签</title>
 </head>
 <body style="background-color:#d6dbdf">
     <p>
@@ -80,7 +80,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>语义化的标签</title>
 </head>
     <body style="background-color:#d6dbdf">
     <h1>标题</h1>

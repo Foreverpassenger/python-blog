@@ -7,7 +7,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>html标题</title>
 </head>
 <body>
     <h1>一级标题</h1>

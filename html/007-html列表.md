@@ -77,5 +77,20 @@
 </html>
 ```
 
-![](/assets/18.png)
+#### ![](/assets/18.png)列表快捷键
+
+在sublime创建列表快捷键：
+
+```html
+	<!-- ul>(li>a)*5   -->
+	<ul>
+		<li><a href="">新闻标题</a></li>
+		<li><a href="">新闻标题</a></li>
+		<li><a href="">新闻标题</a></li>
+		<li><a href="">新闻标题</a></li>
+		<li><a href="">新闻标题</a></li>
+	</ul>
+```
+
+
 

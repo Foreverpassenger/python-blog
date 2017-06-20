@@ -64,32 +64,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>table常用属性</title>
+    <meta charset="UTF-8">
+    <title>table常用属性</title>
 </head>
 <body>
-	<table border="1" width="500" height="300" cellpadding="5px" cellspacing="10px">
-		<tr>
-			<!--th的文字默认居中了-->
-			<th valign="top">序号</th>
-			<th align="left">产品名称</th>
-			<th>产品价格</th>
-			<th>产品数量</th>
-		</tr>
-		<tr>
-			<!--td的文字默认align=left,valign设置middle无效-->
-			<td align="center">1</td>
-			<td align="center">苹果</td>
-			<td>¥5.00</td>
-			<td>1000</td>
-		</tr>
-		<tr>
-			<td align="center">2</td>
-			<td valign="middle">橘子</td>
-			<td valign="top">¥4.00</td>
-			<td>2000</td>
-		</tr>
-	</table>
+    <table border="1" width="500" height="300" cellpadding="5px" cellspacing="10px">
+        <tr>
+            <!--th的文字默认居中了-->
+            <th valign="top">序号</th>
+            <th align="left">产品名称</th>
+            <th>产品价格</th>
+            <th>产品数量</th>
+        </tr>
+        <tr>
+            <!--td的文字默认align=left,valign设置middle无效-->
+            <td align="center">1</td>
+            <td align="center">苹果</td>
+            <td>¥5.00</td>
+            <td>1000</td>
+        </tr>
+        <tr>
+            <td align="center">2</td>
+            <td valign="middle">橘子</td>
+            <td valign="top">¥4.00</td>
+            <td>2000</td>
+        </tr>
+    </table>
 </body>
 </html>
 ```
@@ -99,6 +99,62 @@
 8、colspan 设置单元格水平合并
 
 9、rowspan 设置单元格垂直合并
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>table常用属性2</title>
+</head>
+<body style="background-color:#d6dbdf">
+	<table border="1" width="600" height="300" >
+		<tr>
+			<!-- colspan设置单元格水平合并-->
+			<th colspan="5" align="left">基本情况</th>
+		</tr>
+		<tr>
+			<td width="18%">姓名</td>
+			<td width="18%"></td>
+			<td width="18%">性别</td>
+			<td width="18%"></td>
+			<!-- rowspan 设置单元格垂直合并-->
+			<td rowspan="5"  width="28%"><img src="person.jpg" alt="人物图片" ></td>
+		</tr>
+		<tr>
+			<td>名族</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			
+		</tr>
+		<tr>
+			<td>政治面貌</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			
+		</tr>
+		<tr>
+			<td>籍贯</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			
+		</tr>
+		<tr>
+			<td>电子邮箱</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			
+		</tr>
+	</table>
+</body>
+</html>
+```
+
+#### ![](/assets/20.png) {#传统布局：}
 
 #### 传统布局： {#传统布局：}
 

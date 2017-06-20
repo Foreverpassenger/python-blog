@@ -1,5 +1,7 @@
 ## html块、含样式的标签
 
+---
+
 #### html块
 
 1、div标签 块元素，表示一块内容，没有具体的语义。  
@@ -30,6 +32,8 @@
 ```
 
 #### ![](/assets/7.png)
+
+---
 
 #### 含样式和语义的标签
 
@@ -65,6 +69,8 @@
 
 #### ![](/assets/8.png)
 
+---
+
 #### 语义化的标签
 
 语义化的标签，就是在布局的时候多使用语义化的标签，搜索引擎在爬网的时候能认识这些标签，理解文档的结构，方便网站的收录。比如：h1标签是表示标题，p标签是表示段落，ul、li标签是表示列表，a标签表示链接，dl、dt、dd表示定义列表等，语义化的标签不多。
@@ -73,24 +79,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <title>Document</title>
 </head>
-	<body style="background-color:#d6dbdf">
-	<h1>标题</h1>
-	<p>段落</p>
-	<ul>
-		<li>列表</li>
-		<li>列表</li>
-		<li>列表</li>
-	</ul>
-	<a href="www.baidu.com">链接</a>
-	<dl>
-		<dt>列表</dt>
-		<dd>列表</dd>
-		<dt>列表</dt>
-		<dd>列表</dd>
-	</dl>
+    <body style="background-color:#d6dbdf">
+    <h1>标题</h1>
+    <p>段落</p>
+    <ul>
+        <li>列表</li>
+        <li>列表</li>
+        <li>列表</li>
+    </ul>
+    <a href="www.baidu.com">链接</a>
+    <dl>
+        <dt>列表</dt>
+        <dd>列表</dd>
+        <dt>列表</dt>
+        <dd>列表</dd>
+    </dl>
 </body>
 </html>
 ```

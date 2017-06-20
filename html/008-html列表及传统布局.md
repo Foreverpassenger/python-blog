@@ -8,6 +8,42 @@
 
 3、td和th标签：定义一行中的一个单元格，td代表普通单元格，th表示表头单元格
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>table常用标签</title>
+</head>
+<body>
+	<table >
+		<tr>
+			<th>序号</th>
+			<th>产品名称</th>
+			<th>产品价格</th>
+			<th>产品数量</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>苹果</td>
+			<td>¥5.00</td>
+			<td>1000</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>橘子</td>
+			<td>¥4.00</td>
+			<td>2000</td>
+		</tr>
+
+
+	</table>
+</body>
+</html>
+```
+
+#### ![](/html/代码/18-2.png) {#table常用属性：}
+
 #### table常用属性： {#table常用属性：}
 
 1、border 定义表格的边框
@@ -43,8 +79,6 @@
 2、商业推广EDM制作\(广告邮件\)
 
 #### table布局实例（个人简历页面布局实例）： {#table布局实例（个人简历页面布局实例）：}
-
-
 
 #### 表格常用样式属性 {#表格常用样式属性}
 

@@ -21,6 +21,8 @@
 </html>
 ```
 
+
+
 在网页上生成的列表，每条项目上会按1、2、3编号，有序列表在实际开发中较少使用。
 
 #### 无序列表 {#无序列表}
@@ -54,21 +56,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>定义列表</title>
+    <meta charset="UTF-8">
+    <title>定义列表</title>
 </head>
 <body>
-	<dl>		
-		<dt>html</dt>
-		<dd>负责页面的结构</dd>
+    <dl>        
+        <dt>html</dt>
+        <dd>负责页面的结构</dd>
 
-		<dt>css</dt>
-		<dd>负责页面的表现</dd>
+        <dt>css</dt>
+        <dd>负责页面的表现</dd>
 
-		<dt>JavaScript</dt>
-		<dd>负责页面的行为</dd>
+        <dt>JavaScript</dt>
+        <dd>负责页面的行为</dd>
 
-	</dl>
+    </dl>
 </body>
 </html>
 ```

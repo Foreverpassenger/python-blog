@@ -34,8 +34,8 @@
 
 我的目录结构如下:
 
-* html\(test.html,apple01.png\)
-* images\(apple03.png\)
+* html文件夹\(test.html,apple01.png\)
+* images文件夹\(apple03.png\)
 * apple02.png
 
 ```html

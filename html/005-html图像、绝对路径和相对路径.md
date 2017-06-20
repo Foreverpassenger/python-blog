@@ -8,12 +8,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <title>Document</title>
 </head>
-	<body style="background-color:#d6dbdf">
-		<img src="apple.png" alt="苹果">
-	</body>
+    <body style="background-color:#d6dbdf">
+        <img src="apple.png" alt="苹果">
+    </body>
 </html>
 ```
 
@@ -32,7 +32,7 @@
 
 * **“ ../ ”** 表示当前文件所在目录下的上一级目录，比如：“../images/pic.jpg” 表示当前目录下的上一级目录下的images文件夹中的pic.jpg的图片。
 
-我的目录结构如下
+我的目录结构如下:
 
 * html\(test.html,apple01.png\)
 * images\(apple03.png\)
@@ -42,18 +42,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <title>Document</title>
 </head>
 <body>
-	<!-- “./pic.jpg” 表示当前目录下的apple01.png的图片-->
-	<img src="./apple01.png" alt="苹果01">
-	<!-- “./pic.jpg” 表示当前目录下的apple01.png的图片，这个使用时可以省略-->
-	<img src="apple01.png" alt="苹果01">
-	<!--../images/pic.jpg” 表示当前目录下的上一级目录下apple02.png的图片-->
-	<img src="../apple02.png" alt="苹果02">
-	<!--“../images/pic.jpg” 表示当前目录下的上一级目录下的images文件夹中的apple03.png的图片。-->
-	<img src="../images/apple03.png" alt="苹果03">
+    <!-- “./pic.jpg” 表示当前目录下的apple01.png的图片-->
+    <img src="./apple01.png" alt="苹果01">
+    <!-- “./pic.jpg” 表示当前目录下的apple01.png的图片，这个使用时可以省略-->
+    <img src="apple01.png" alt="苹果01">
+    <!--../images/pic.jpg” 表示当前目录下的上一级目录下apple02.png的图片-->
+    <img src="../apple02.png" alt="苹果02">
+    <!--“../images/pic.jpg” 表示当前目录下的上一级目录下的images文件夹中的apple03.png的图片。-->
+    <img src="../images/apple03.png" alt="苹果03">
 </body>
 </html>
 ```

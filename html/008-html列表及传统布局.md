@@ -12,32 +12,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>table常用标签</title>
+    <meta charset="UTF-8">
+    <title>table常用标签</title>
 </head>
 <body>
-	<table >
-		<tr>
-			<th>序号</th>
-			<th>产品名称</th>
-			<th>产品价格</th>
-			<th>产品数量</th>
-		</tr>
-		<tr>
-			<td>1</td>
-			<td>苹果</td>
-			<td>¥5.00</td>
-			<td>1000</td>
-		</tr>
-		<tr>
-			<td>2</td>
-			<td>橘子</td>
-			<td>¥4.00</td>
-			<td>2000</td>
-		</tr>
+    <table >
+        <tr>
+            <th>序号</th>
+            <th>产品名称</th>
+            <th>产品价格</th>
+            <th>产品数量</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>苹果</td>
+            <td>¥5.00</td>
+            <td>1000</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>橘子</td>
+            <td>¥4.00</td>
+            <td>2000</td>
+        </tr>
 
 
-	</table>
+    </table>
 </body>
 </html>
 ```
@@ -59,6 +59,8 @@
 6、colspan 设置单元格水平合并
 
 7、rowspan 设置单元格垂直合并
+
+8、width  设置表格宽度
 
 #### 传统布局： {#传统布局：}
 

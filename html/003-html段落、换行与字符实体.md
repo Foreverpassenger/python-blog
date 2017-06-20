@@ -8,11 +8,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <title>Document</title>
 </head>
 <body>
-	<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -38,7 +38,20 @@
 代码中成段的文字，直接在代码中回车换行，在渲染成网页时候不认这种换行，如果真想换行，可以在代码的段落中插入&lt;br /&gt;来强制换行，代码如下：
 
 ```html
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p>
+		一个html文件就是一个网页，html文件用编辑器打开显示的是文本，可以用<br />
+		文本的方式编辑它，如果用浏览器打开，浏览器会按照标签描述内容将文件<br />
+		渲染成网页，显示的网页可以从一个网页链接跳转到另外一个网页。
+	</p>
+</body>
+</html>
 ```
 
 #### html字符实体

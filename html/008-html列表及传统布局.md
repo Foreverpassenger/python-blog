@@ -184,46 +184,46 @@ border-collapse:collapse 设置边框合并，制作一像素宽的边线的表�
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>边框合并</title>
-	<style type="text/css">
-		.ta{
-			border-collapse: collapse;
-			border:1px solid gray;
-			width:"500" ;
-			height:"300";
-		}
-		.ta th,.ta td{
-			border: 1px solid gray;
-			padding: 10px;}
-	</style>
+    <meta charset="UTF-8">
+    <title>边框合并</title>
+    <style type="text/css">
+        .ta{
+            border-collapse: collapse;
+            border:1px solid gray;
+            width:"500" ;
+            height:"300";
+        }
+        .ta th,.ta td{
+            border: 1px solid gray;
+            padding: 10px;}
+    </style>
 </head>
 <body >
-	<table class="ta" >
-		<tr>
-			
-			<th>序号</th>
-			<th>产品名称</th>
-			<th>产品价格</th>
-			<th>产品数量</th>
-		</tr>
-		<tr>
-			<td >1</td>
-			<td >苹果</td>
-			<td>¥5.00</td>
-			<td>1000</td>
-		</tr>
-		<tr>
-			<td>2</td>
-			<td>橘子</td>
-			<td>¥4.00</td>
-			<td>2000</td>
-		</tr>
-	</table>
-	
+    <table class="ta" >
+        <tr>
+
+            <th>序号</th>
+            <th>产品名称</th>
+            <th>产品价格</th>
+            <th>产品数量</th>
+        </tr>
+        <tr>
+            <td >1</td>
+            <td >苹果</td>
+            <td>¥5.00</td>
+            <td>1000</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>橘子</td>
+            <td>¥4.00</td>
+            <td>2000</td>
+        </tr>
+    </table>
+
 </body>
 </html>
 ```
 
-
+![](/assets/21.png)
 

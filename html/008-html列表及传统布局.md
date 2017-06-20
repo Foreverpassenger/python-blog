@@ -187,19 +187,19 @@ border-collapse:collapse 设置边框合并，制作一像素宽的边线的表�
     <meta charset="UTF-8">
     <title>边框合并</title>
     <style type="text/css">
-        .ta{
+        .table{
             border-collapse: collapse;
             border:1px solid gray;
             width:"500" ;
             height:"300";
         }
-        .ta th,.ta td{
+        .table th,.table td{
             border: 1px solid gray;
             padding: 10px;}
     </style>
 </head>
 <body >
-    <table class="ta" >
+    <table class="table" >
         <tr>
 
             <th>序号</th>

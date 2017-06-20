@@ -31,8 +31,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>无序列表</title>
+    <meta charset="UTF-8">
+    <title>无序列表</title>
 </head>
 <body>
 <ul>
@@ -51,7 +51,26 @@
 定义列表通常用于术语的定义。&lt;dl&gt;标签表示列表的整体。&lt;dt&gt;标签定义术语的题目。&lt;dd&gt;标签是术语的解释。一个&lt;dl&gt;中可以有多个题目和解释，代码如下：
 
 ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>定义列表</title>
+</head>
+<body>
+	<dl>		
+		<dt>html</dt>
+		<dd>负责页面的结构</dd>
 
+		<dt>css</dt>
+		<dd>负责页面的表现</dd>
+
+		<dt>JavaScript</dt>
+		<dd>负责页面的行为</dd>
+
+	</dl>
+</body>
+</html>
 ```
 
 

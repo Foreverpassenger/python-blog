@@ -8,8 +8,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>有序列表</title>
+    <meta charset="UTF-8">
+    <title>有序列表</title>
 </head>
 <body>
 <ol>
@@ -28,7 +28,20 @@
 在网页上定义一个无编号的内容列表可以用&lt;ul&gt;、&lt;li&gt;配合使用来实现，代码如下：
 
 ```html
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>无序列表</title>
+</head>
+<body>
+<ul>
+    <li>列表文字一</li>
+    <li>列表文字二</li>
+    <li>列表文字三</li>
+</ul>
+</body>
+</html>
 ```
 
 在网页上生成的列表，每条项目上会有一个小图标，这个小图标在不同浏览器上显示效果不同，所以一般会用样式去掉默认的小图标，如果需要图标，可以用样式自定义图标，从而达到在不同浏览器上显示的效果相同,实际开发中一般用这种列表。

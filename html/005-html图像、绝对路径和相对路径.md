@@ -9,7 +9,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>图片</title>
 </head>
     <body style="background-color:#d6dbdf">
         <img src="apple.png" alt="苹果">

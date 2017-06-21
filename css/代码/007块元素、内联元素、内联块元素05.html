@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>内联块元素</title>
+  <style type="text/css">
+    *{
+    margin: 0px;
+    padding: 0px;
+    }
+    .div1{
+      width: 200px;
+      height: 100px;
+      background-color: gold;
+      display: inline-block;
+    }
+    .div2{
+      width: 100px;
+      height: 50px;
+      background-color: red;
+      margin-top: 30px;
+      display: inline-block;
+    }
+    .div3{
+      width: 800px;
+      height: 100px;
+      background-color: gold;
+      margin-bottom: 30px;
+      margin-top: 30px;
+      display: inline-block;
+    }
+    .div4{
+      width: 800px;
+      height: 50px;
+      background-color: red;
+      margin-top: 50px;
+      display: inline-block;
+    }
+  </style>
+  
+</head>
+<body>
+
+  <br/>
+  <br/>
+  <br/>
+ 
+  <!--没有产生margin塌陷解决了-->
+  <div class="div1">
+    <div class="div2"></div>
+  </div>
+
+  <br/>
+  <br/>
+  <br/>
+  <!--没有产生margin合并-->
+  <div class="div3"></div>
+  <div class="div4"></div>
+</body>
+</html>

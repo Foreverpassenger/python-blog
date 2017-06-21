@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>内联元素</title>
+  <style type="text/css">
+   body{
+      margin:0px;
+    }
+    .a1{
+      width: 200px;
+      height: 200px;
+      background-color: gold;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      padding-top: 50px;
+    }
+    .div1{
+      width: 300px;
+      height: 200px;
+      text-align: center;
+      margin-top: 20px;
+      line-height: 200px;
+      background-color: gold;
+    }
+    .a2{
+      background-color: red;
+    }
+     .div2{
+      width: 300px;
+      height: 200px;
+      margin-top: 20px;
+      background-color: gold;
+      font-size: 0px;
+    }
+    .a3{
+      background-color: red;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+    <!--支持部分样式（不支持宽、高、margin上下、padding上下）-->
+    <a class="a1" href="#">这是一个内联元素</a>
+    <!--宽高由内容决定-->
+    <!--盒子并在一行-->
+    <!--代码换行，盒子之间会产生间距-->
+    <!--宽高由内容决定-->
+    <a class="a1" href="#">这是一个内联元素这是一个内联元素</a>
+    <a class="a1" href="#">这是一个内联元素这是一个内联元素这是一个内联元素</a>
+
+    <!--子元素是内联元素，父元素可以用text-align属性设置子元素水平对齐方式，用line-height属性值设置垂直对齐方式-->
+    <div class="div1">
+      <a class="a2" href="#">这是一个内联元素</a>
+    </div>
+    
+    <!--解决内联元素间隙的方法将内联元素的父级设置font-size为0，内联元素自身再设置font-size -->
+    <div class="div2">
+      <a class="a3" href="#">这是一个内联元素</a>
+      <a class="a3" href="#">这是一个内联元素</a>
+      <a class="a3" href="#">这是一个内联元素</a>
+      <a class="a3" href="#">这是一个内联元素</a>
+      <a class="a3" href="#">这是一个内联元素</a>
+    </div>
+</body>
+</html>

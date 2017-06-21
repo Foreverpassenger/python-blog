@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>清除浮动</title>
+  <style type="text/css">
+    .div1,.div2{
+      width:300px;
+      border:1px solid #000;
+     
+    }
+    .a1{
+      width:50px;
+      height:50px;
+      display:inline-block;
+      background-color:gold;
+      font-size:16px;
+      line-height: 50px;
+      text-align: center;
+    }
+    .a2{
+      width:50px;
+      height:50px;
+      float: left;
+      background-color:gold;
+      font-size:16px;
+      text-align: center;
+      line-height: 50px;
+    }
+  .clearfix:before,.clearfix:after{
+      content:"";
+      display:table;
+    }
+
+    .clearfix:after{
+      clear:both;
+    }
+
+    .clearfix{
+      zoom:1;
+    }
+    .div2{
+      /*overflow:hidden*/
+    }
+  </style>
+</head>
+<body > 
+  <!-- 父元素内行内块元素可以撑开父元素 -->
+  <div class="div1">
+    <a class="a1" href="#">1</a>
+    <a class="a1" href="#">2</a>
+    <a class="a1" href="#">3</a>
+    <a class="a1" href="#">4</a>
+  </div>
+
+  <br>
+  <br>
+  <br>
+ <!-- 父元素内浮动元素无法撑开父元素 -->
+  <div class="div2">
+    <a class="a2" href="#">5</a>
+    <a class="a2" href="#">6</a>
+    <a class="a2" href="#">7</a>
+    <a class="a2" href="#">8</a>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <!-- 清除浮动后，父元素内浮动元素可以撑开父元素 -->
+  <div class="div2 clearfix">
+    <a class="a2" href="#">5</a>
+    <a class="a2" href="#">6</a>
+    <a class="a2" href="#">7</a>
+    <a class="a2" href="#">8</a>
+    <!-- <div style="clear:both"></div> -->
+  </div>
+</body>
+</html>

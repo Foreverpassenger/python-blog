@@ -4,27 +4,50 @@
   <meta charset="UTF-8">
   <title>margin-top 塌陷</title>
   <style type="text/css">
-    .con{
+  .con1{
       width:300px;
       height:200px;
       background-color:gold;
-      /* 
-      第一种解决塌陷的方法：
-      border:1px solid gold; 
-
-      */
-
-      /* overflow:hidden; */
     }
 
-    .box{
+    .box1{
       width:100px;
       height:100px;
       background-color:green;
-      
+    }
+  .con2{
+      width:300px;
+      height:200px;
+      background-color:gold;
+    }
+
+    .box2{
+      width:100px;
+      height:100px;
+      background-color:green;
+      margin-top:50px;
+    }
+    .con3{
+      width:300px;
+      height:200px;
+      background-color:gold;
+      /* 第一种解决塌陷的方法：
+      border:1px solid gold; 
+      */
+
+      /* 第二张解决塌陷的方法：
+      overflow:hidden; 
+      */
+    }
+
+    .box3{
+      width:100px;
+      height:100px;
+      background-color:green;
+      margin-top:50px;
     }
     
-
+    /* 第三种解决塌陷的方法*/
     .clearfix:before{
       content:"";
       display:table;
@@ -34,8 +57,22 @@
   </style>
 </head>
 <body>
-  <div class="con">
-    <div class="box"></div>
+  <div class="con1">
+    <div class="box1"></div>
+  </div>
+  <br/>
+  <br/>
+  <hr/>
+  <!--在类box2添加margin-top:50px-->
+  <div class="con2">
+    <div class="box2"></div>
+  </div>
+  <br/>
+  <br/>
+  <hr/>
+  <!--解决塌陷-->
+  <div class="con3">
+    <div class="box3"></div>
   </div>
 </body>
 </html>
